@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+<item android:title="Home"
+    android:id="@+id/mobHome"
+    />
+
+        <item android:title="Mobile Accessories"
+            android:id="@+id/mobAccPro">
+            <menu>
+                <item android:title="Phones"
+                    android:id="@+id/redmiPro"
+                    />
+
+            </menu>
+
+        </item>
+    </group>
+</menu>
